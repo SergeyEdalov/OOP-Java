@@ -10,6 +10,11 @@ public class CalculatorComplexCount extends Calculator {
 
     }
 
+    /**
+     * @apiNote Метод суммирования комплексных чисел
+     * @param x - 1-е слагаемое
+     * @param y - 2-е слагаемое
+     */
     @Override
     public void sum(Object x, Object y) {
         ComplexCount x1 = (ComplexCount) x;
@@ -20,6 +25,11 @@ public class CalculatorComplexCount extends Calculator {
         setResult(new ComplexCount(realResultPart, imaginaryResultPart));
     }
 
+    /**
+     * @apiNote Метод умножения комплексных чисел
+     * @param x - 1-е слагаемое
+     * @param y - 2-е слагаемое
+     */
     @Override
     public void multiplication(Object x, Object y) {
         ComplexCount x1 = (ComplexCount) x;
@@ -31,7 +41,11 @@ public class CalculatorComplexCount extends Calculator {
                 x1.getRealPart() * y1.getImaginaryPart();
         setResult(new ComplexCount(realResultPart, imaginaryResultPart));
     }
-
+    /**
+     * @apiNote Метод деления комплексных чисел
+     * @param x - 1-е слагаемое
+     * @param y - 2-е слагаемое
+     */
     @Override
     public void divide(Object x, Object y) {
         ComplexCount x1 = (ComplexCount) x;

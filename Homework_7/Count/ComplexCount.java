@@ -18,14 +18,6 @@ public class ComplexCount extends Count {
         return imaginaryPart;
     }
 
-    public void setRealPart(Double realPart) {
-        this.realPart = realPart;
-    }
-
-    public void setImaginaryPart(Double imaginaryPart) {
-        this.imaginaryPart = imaginaryPart;
-    }
-
     @Override
     public String toString() {
         return "ComplexCount{" +

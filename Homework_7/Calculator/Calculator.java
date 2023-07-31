@@ -47,7 +47,10 @@ public abstract class Calculator<T extends Count> implements Calculate {
     @Override
     public abstract void divide(Object x, Object y);
 
-
+    /**
+     * @apiNote читать журнал
+     * @param logs - список журнальных записей
+     */
     public void read(List<Log> logs) {
         for (Log log : logs) {
             System.out.println("Журнал" + log.toString());

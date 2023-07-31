@@ -23,6 +23,10 @@ public class Log implements Logging {
         this.calculator = calculator;
     }
 
+    /**
+     * @apiNote - Метод добавления записи в журнал
+     * @param log - запись
+     */
     @Override
     public void add(Log log) {
         while (typeCalculator != TypeCalculator.FINISH) {

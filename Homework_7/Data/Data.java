@@ -7,6 +7,9 @@ public class Data {
     private final String userSecondtCount;
     private String action;
 
+    /**
+     * @apiNote Метод получения данных от пользователя (2-х чисел и действия)
+     */
     public Data() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите первое комплексное число: ");

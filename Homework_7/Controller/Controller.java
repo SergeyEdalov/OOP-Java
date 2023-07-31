@@ -21,6 +21,9 @@ public class Controller {
     ConverterData converterData = new ConverterData();
     TypeCalculator typeCalculator = TypeCalculator.START;
 
+    /**
+     * @apiNote Метод работы калькулятора. Собирает все классы вместе
+     */
     public void work() {
         List<Log> logList = new ArrayList<>();
         while (typeCalculator != TypeCalculator.FINISH) {

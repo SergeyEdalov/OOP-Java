@@ -9,6 +9,11 @@ import java.util.regex.Pattern;
 
 public class ConverterData implements ConvertToComplexCount {
 
+    /**
+     * @apiNote Метод конвертирования приходящей строки в комплексное число
+     * @param string - строка данных
+     * @return - комплексное число
+     */
     @Override
     public ComplexCount convert(String string) {
         List<String> numbers = new ArrayList<>();
